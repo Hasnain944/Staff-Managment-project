@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6cdcd;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5a623;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-section img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.notification {
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.badge {
+    background: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: absolute;
+    top: -5px;
+    right: -8px;
+}
+
+/* Main Content */
+h2 {
+    color: #0056b3;
+    margin-top: 30px;
+}
+
+/* Buttons Layout */
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+/* Button Styling */
+.department {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Department Colors */
+.blue {
+    background-color: #0066ff;
+}
+
+.orange {
+    background-color: #ff9900;
+}
+
+.light-blue {
+    background-color: #33ccff;
+}
+
+.green {
+    background-color: #009933;
+}
